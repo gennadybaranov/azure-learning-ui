@@ -1,0 +1,22 @@
+.item {
+    display: flex;
+
+    flex-flow: column;
+    align-items: center;
+    margin-right: 30px;
+    max-width: 25%;
+    padding: 0 30px 30px 30px;
+
+    &__text {
+        display: flex;
+
+        padding-top: 10px;
+        text-align: center;
+        flex-grow: 1;
+
+        color: #5c5959;
+
+        font-family: 'Verdana';
+        font-size: 12px;
+    }
+}

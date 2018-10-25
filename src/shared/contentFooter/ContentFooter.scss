@@ -1,0 +1,17 @@
+.content-footer {
+    display: flex;
+
+    justify-content: space-between;
+    border: 1px solid #d3d3d3;
+    padding: 1%;
+    width: 100%;
+
+    background-color: #f8f8f8;
+
+    &__counter {
+        display: flex;
+
+        align-self: center;
+        margin-left: 1%;
+    }
+}

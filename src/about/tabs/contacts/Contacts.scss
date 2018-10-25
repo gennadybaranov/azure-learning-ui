@@ -1,0 +1,46 @@
+.contacts {
+    display: flex;
+
+    flex-flow: column;
+    align-items: center;
+
+    &__links {
+        display: flex;
+        flex-wrap: wrap;
+
+        width: 80%;
+
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.social-link {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+    margin: 0 30px 30px 30px;
+    border-radius: 50%;
+
+    color: #ffffff;
+    background-color: #5c5959;
+
+    font-size: 40px;
+    text-decoration: none;
+
+    &:hover {
+        color: #f8f8f8;
+        background-color: #c1bebe;
+        text-decoration: none;
+    }
+
+    &:focus {
+        color: #ffffff;
+        background-color: #5c5959;
+        text-decoration: none;
+    }
+}

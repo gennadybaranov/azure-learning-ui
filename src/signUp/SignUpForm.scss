@@ -1,0 +1,25 @@
+.form-auth {
+    flex-grow: 1;
+    align-self: center;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+
+    background-color: #f8f8f8;
+    border-radius: 10px;
+
+    &__caption {
+        padding-bottom: 10px;
+
+        text-align: center;
+    }
+
+    &__warning-block {
+        min-height: 20px;
+    }
+
+    &__error-list {
+        list-style-type: none;
+        color: #a94442;
+    }
+}

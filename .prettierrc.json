@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Visual Studio Light",
+    "tabWidth": 4,
+    "singleQuote": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "trailingComma": "es5"
+
+}

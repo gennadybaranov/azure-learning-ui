@@ -1,0 +1,36 @@
+.overlay {
+    display: flex;
+
+    flex-flow: column;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    &_active {
+        display: flex;
+
+        flex-flow: column;
+        flex: 1 0 auto;
+        height: 100%;
+        width: 100%;
+
+        filter: blur(3px);
+    }
+
+    &_inactive {
+        display: flex;
+
+        flex-flow: column;
+        flex: 1 0 auto;
+        height: 100%;
+        width: 100%;
+    }
+
+    &__spinner {
+        position: absolute;
+
+        z-index: 1;
+    }
+}
